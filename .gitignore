@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 数据集与模型权重（体积大，需自行准备/训练）
+data/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# 训练产物（results_gpu/ 中的实验图表与 CSV 会保留）
+results/
+experiments/
+checkpoints/
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
